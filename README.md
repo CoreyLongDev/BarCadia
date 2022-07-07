@@ -3,16 +3,16 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is a open-source webapp dedicated to helping manage a barcade.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* most barcades need to manage obviously a bar and a arcade. and if that wasnt enough a kitchen on occasion as well.
+* This webapp simplifies the process by allowing CMS to take place at the home page. user reviews for keeping up on which machines to rotate out or keep in, self-order and self-pay for a more effiecent and restricted staff, also keeping in same usecase for the drinks to know which to throw out and which to order more of.
+* a good business needs good software to support their ever changing needs. upon reaching V1.0 i will begin accepting feature requests from users to incorpoorate trends across the barcade industry.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+please reach out with any questions!
 
-Use the `BLANK_README.md` to get started.
+Use the `info.md` to get started.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -22,14 +22,14 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
+* [JavaScript](http://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+* [Node.js](https://nodejs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
+* [Pug.js](https://pug.js/)
+* [Passport.js](https://passportjs.org/)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+* [Express](https://expressjs.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
