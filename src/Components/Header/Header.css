@@ -2,4 +2,11 @@
     font-family: "Smooch", cursive;
     color: maroon;
     margin-bottom: -5px;
+    float: left;
   }
+.navBar {
+    list-style-type: none;
+}
+li {
+    display: inline
+}
