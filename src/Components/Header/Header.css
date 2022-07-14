@@ -1,14 +1,26 @@
 #header {
     font-family: "Smooch", cursive;
     color: #00c086;
+    padding-bottom: 10px;
+    font-size: 60px;
   }
-/* .navBar {
-    list-style-type: none;
+
+.Navi {
+    margin-top: -60px;
+    box-shadow: none;
 }
-li {
-    display: inline;
-    border-right: solid green 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    
-} */
+
+a{
+    color: white !important;
+    font-weight: 500;
+    font-size: 20px;
+    }
+a:hover {
+    color: #FF5DB2 !important;
+    text-shadow: 20px 10px #00c0862a;
+}
+#logo {
+    max-width: 75px;
+    max-height: 75px;
+    float: left;
+}
