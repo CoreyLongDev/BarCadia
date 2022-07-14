@@ -1,6 +1,6 @@
 import React from "react";
 
-const Drink = () => {
+const Reload = () => {
     return(
         <h1>get drunk brah</h1>
     )
@@ -11,4 +11,4 @@ const Drink = () => {
 
 
 
-export default Drink;
+export default Reload;

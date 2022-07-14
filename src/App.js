@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Play from './Pages/Play';
-import Drink from './Pages/Drink';
+import Reload from './Pages/Reload';
 import Events from './Pages/Events';
 import About from './Pages/About';
 import Login from './Pages/Login';
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/play' element={<Play />} />
-          <Route path='/drink' element={<Drink />} />
+          <Route path='/reload' element={<Reload />} />
           <Route path='/events' element={<Events />} />
           <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
