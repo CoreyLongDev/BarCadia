@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Play from './Pages/Play';
@@ -18,13 +19,13 @@ function App() {
 
     <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/play' element={<Play />} />
-          <Route path='/reload' element={<Reload />} />
-          <Route path='/events' element={<Events />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/member' element={<Member />} />
+          <Route path='/Home' element={<Home />} />
+          <Route path='/Play' element={<Play />} />
+          <Route path='/Reload' element={<Reload />} />
+          <Route path='/Events' element={<Events />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Login' element={<Login />} />
+          <Route path='/Member' element={<Member />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
     </Router>
