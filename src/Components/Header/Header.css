@@ -1,6 +1,6 @@
 #header {
     font-family: "Smooch", cursive;
-    color: maroon;
+    color: #00c086;
     margin-bottom: -5px;
     float: left;
   }
@@ -8,5 +8,9 @@
     list-style-type: none;
 }
 li {
-    display: inline
+    display: inline;
+    border-right: solid green 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
 }
