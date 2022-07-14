@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import { Tab } from 'mdb-react-ui-kit';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button } from 'react-bootstrap'
 
 const Header = () => {
     return(
@@ -12,6 +13,7 @@ const Header = () => {
             <li><a href="./Reload">Reload</a></li>
             <li><a href="./Events">Events</a></li>
             <li><a href="./About">About Us</a></li>
+            <Button>Brah</Button>
         </ul>
         </>
     )
