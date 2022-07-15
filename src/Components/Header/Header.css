@@ -17,7 +17,7 @@ a{
     }
 a:hover {
     color: #FF5DB2 !important;
-    text-shadow: 20px 10px #00c0862a;
+    font-weight: bold;
 }
 #logo {
     max-width: 75px;
