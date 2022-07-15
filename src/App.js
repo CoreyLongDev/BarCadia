@@ -7,6 +7,7 @@ import Reload from './Pages/Reload';
 import Events from './Pages/Events';
 import About from './Pages/About';
 import Login from './Pages/Login';
+import Connect from './Pages/Connect'
 import NotFoundPage from './Pages/NotFoundPage';
 import Member from './Pages/Member';
 import Header from './Components/Header/Header';
@@ -25,6 +26,7 @@ function App() {
           <Route path='/Events' element={<Events />} />
           <Route path='/About' element={<About />} />
           <Route path='/Login' element={<Login />} />
+          <Route path='/Connect' element={<Connect />} />
           <Route path='/Member' element={<Member />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>

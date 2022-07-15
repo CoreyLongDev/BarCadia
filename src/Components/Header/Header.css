@@ -24,3 +24,6 @@ a:hover {
     max-height: 75px;
     float: left;
 }
+#testing {
+    color: black !important;
+}

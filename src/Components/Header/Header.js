@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
-import { Nav, Navbar, Container } from 'react-bootstrap'
+import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap'
 import Logo from '../Header/barcadiaLogo.png'
 
 const Header = () => {
@@ -16,7 +15,14 @@ const Header = () => {
             <Nav.Link href="./Play">Play</Nav.Link>
             <Nav.Link href="./Reload">Reload</Nav.Link>
             <Nav.Link href="./Events">Events</Nav.Link>
-            <Nav.Link href="./About">About Us</Nav.Link>
+            {/* <Nav.Link href="./About">About Us</Nav.Link> */}
+            <NavDropdown title="About" id="basic-nav-dropdown" >
+              <NavDropdown.Item id="testing" href="./Connect">Connect with US</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            </NavDropdown>
             </Container>
         </Navbar>
         </>
