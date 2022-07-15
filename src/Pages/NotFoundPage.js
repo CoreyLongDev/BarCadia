@@ -1,11 +1,10 @@
 import React from "react";
+import LockedDoor from '../Images/404.png'
+import '../App.css'
 
 const NotFoundPage = () => {
     return(
-        <h1>404: Page not found.
-            <br />
-            please try again..
-        </h1>
+        <img id="theDoor" src={LockedDoor} alt="closed and locked door" />
     )
 }
 

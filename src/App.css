@@ -39,3 +39,9 @@
 body {
   background-color: #282c34 !important
 }
+#theDoor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
