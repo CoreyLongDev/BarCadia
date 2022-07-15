@@ -1,8 +1,13 @@
 import React from "react";
+import './Footer.css'
+import { MDBIcon, MDBFooter } from "mdb-react-ui-kit";
 
 const Footer = () => {
     return(
-        <h4>this is a footer</h4>
+        <>
+        <br />
+        <h5 id="footie">©Corey Long 2022 | Click <a href=''>HERE</a> to get involved with this project</h5>
+        </>
     )
 }
 
