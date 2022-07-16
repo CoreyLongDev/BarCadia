@@ -2,7 +2,7 @@ import React from "react";
 
 const Member = () => {
     return(
-        <h1>you logged in brah</h1>
+        <h1>member page coming soon - phase 2</h1>
     )
 }
 

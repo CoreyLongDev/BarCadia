@@ -2,7 +2,7 @@ import React from "react";
 
 const Events = () => {
     return(
-        <h1>events happnin brah</h1>
+        <h1>current calander events from SQL here</h1>
     )
 }
 

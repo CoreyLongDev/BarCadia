@@ -2,7 +2,7 @@ import React from "react";
 
 const Reload = () => {
     return(
-        <h1>get drunk brah</h1>
+        <h1>current drinks SQL here</h1>
     )
 }
 

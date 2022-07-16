@@ -2,7 +2,7 @@ import React from "react";
 
 const Play = () => {
     return(
-        <h1>what machines we got to play brah</h1>
+        <h1>current arcade list from SQL here</h1>
     )
 }
 

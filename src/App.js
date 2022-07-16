@@ -12,6 +12,7 @@ import NotFoundPage from './Pages/NotFoundPage';
 import Member from './Pages/Member';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Upcoming from './Pages/Upcoming';
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
           <Route path='/Reload' element={<Reload />} />
           <Route path='/Events' element={<Events />} />
           <Route path='/About' element={<About />} />
-          <Route path='/Login' element={<Login />} />
+          <Route path='/Upcoming' element={<Upcoming />} />
           <Route path='/Connect' element={<Connect />} />
+          <Route path='/Login' element={<Login />} />
           <Route path='/Member' element={<Member />} />
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
