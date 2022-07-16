@@ -8,3 +8,7 @@ body {
   margin-right: auto;
   width: 80%;
 }
+.logger {
+  max-width: 50% !important;
+  color: red !important;
+}
