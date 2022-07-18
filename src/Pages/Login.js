@@ -1,9 +1,15 @@
 import React from 'react';
-import { Button, Container, Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 
 function MemberLogin() {
   return (
-    <Container id='logger'>
+    <div style={{ 
+        color: '#00c086',  
+        padding: 20, 
+        maxWidth: 325, 
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'center'}}>
         <Form>
             <Form.Group className="mb-1" controlId="memberEmail">
             <Form.Label>Email address:</Form.Label>
@@ -17,7 +23,7 @@ function MemberLogin() {
                 Log In
             </Button>
         </Form>
-    </Container>
+    </div>
   );
 }
 
