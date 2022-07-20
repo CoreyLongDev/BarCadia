@@ -8,11 +8,11 @@ import Events from './Pages/Events';
 import About from './Pages/About';
 import Login from './Pages/Login';
 import Connect from './Pages/Connect'
-import NotFoundPage from './Pages/NotFoundPage';
 import Member from './Pages/Member';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Upcoming from './Pages/Upcoming';
+import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
   return (

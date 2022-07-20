@@ -3,9 +3,11 @@ import { Button, Form } from 'react-bootstrap';
 
 function MemberLogin() {
   return (
+    <>
     <div style={{ 
         color: '#00c086',  
-        padding: 20, 
+        paddingLeft: 50,
+        paddingRight: 50, 
         maxWidth: 325, 
         display: 'flex', 
         alignItems: 'center', 
@@ -24,6 +26,7 @@ function MemberLogin() {
             </Button>
         </Form>
     </div>
+    </>
   );
 }
 
