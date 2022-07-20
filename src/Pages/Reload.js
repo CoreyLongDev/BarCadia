@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Card, ListGroup } from "react-bootstrap";
+import { alignPropType } from "react-bootstrap/esm/types";
 import LockedDoor from '../Images/404.png'
 
 const Reload = () => {
@@ -20,12 +21,11 @@ const Reload = () => {
       
       {beers.map((beer, index) => {
         return <Card className="cards" key={index}>
-        <Card.Img variant="top" src={beer.img} />
+        <Card.Img variant="top" src={beer.img} style={{maxWidth: '250px', maxHeight: '250px'}} />
         {beer.name} &nbsp;|&nbsp;
         {beer.style} &nbsp;|&nbsp;
         {beer.abr}% &nbsp;|&nbsp; 
         <span style={{color: 'green'}}>$ </span> {beer.price}
-        
         </Card>;
         
       })}
