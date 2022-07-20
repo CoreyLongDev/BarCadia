@@ -8,3 +8,11 @@ body {
   margin-right: auto;
   width: 60%;
 }
+.cards {
+color: #00c086 !important;
+margin: 50px auto !important;
+max-width: 700px !important;
+text-align: center !important;
+display: inline;
+
+}

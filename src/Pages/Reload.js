@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Card } from "react-bootstrap";
+import { Card, ListGroup } from "react-bootstrap";
+import LockedDoor from '../Images/404.png'
 
 const Reload = () => {
   const [beers, setBeers] = useState([]);
@@ -18,13 +19,14 @@ const Reload = () => {
     <>
       
       {beers.map((beer, index) => {
-        return <div className="cards" key={index}>
-        {beer.name}  &nbsp;|&nbsp;
+        return <Card className="cards" key={index}>
+        <Card.Img variant="top" src={LockedDoor} />
+        {beer.name} &nbsp;|&nbsp;
         {beer.style} &nbsp;|&nbsp;
-        {beer.abr}%  &nbsp;|&nbsp; <span style={{color: 'green'}}>$ </span>
-        {beer.price}
+        {beer.abr}% &nbsp;|&nbsp; 
+        <span style={{color: 'green'}}>$ </span> {beer.price}
         
-        </div>;
+        </Card>;
         
       })}
       
