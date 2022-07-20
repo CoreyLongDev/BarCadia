@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Card } from "react-bootstrap";
 
 const Reload = () => {
   const [beers, setBeers] = useState([]);
@@ -26,6 +27,7 @@ const Reload = () => {
         </div>;
         
       })}
+      
     </>
   );
 };
