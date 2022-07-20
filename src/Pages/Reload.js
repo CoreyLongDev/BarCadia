@@ -20,7 +20,7 @@ const Reload = () => {
       
       {beers.map((beer, index) => {
         return <Card className="cards" key={index}>
-        <Card.Img variant="top" src={LockedDoor} />
+        <Card.Img variant="top" src={beer.img} />
         {beer.name} &nbsp;|&nbsp;
         {beer.style} &nbsp;|&nbsp;
         {beer.abr}% &nbsp;|&nbsp; 
