@@ -10,10 +10,7 @@ body {
 }
 .cards {
 color: #00c086 !important;
-margin: 50px auto !important;
-max-width: 250px !important;
 text-align: center !important;
-align-items: center;
 display: inline;
 }
 #cardWrapper {
@@ -21,13 +18,14 @@ display: inline;
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
-  /* margin-left: 3rem; */
+  align-items: center !important;
   margin: auto;
-  margin-bottom: -200px !important;
 }
 .card {
-  margin: 10px !important;
-  display: flex !important;
+  margin: 10px 10px !important;
 align-self: stretch !important;
-min-height: 300px;
+min-height: 350px !important;
+min-width: 250px !important;
+background-color: #ff5db125 !important
 }
+
