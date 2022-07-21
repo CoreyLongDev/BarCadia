@@ -28,4 +28,9 @@ min-height: 350px !important;
 min-width: 250px !important;
 background-color: #ff5db125 !important
 }
-
+#orderBeer {
+  color: #00c086 !important;
+  border: #282c34 2px solid;
+  border-radius: 10px;
+  text-decoration: none;
+}

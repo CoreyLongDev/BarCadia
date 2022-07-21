@@ -36,6 +36,9 @@ const Reload = () => {
                 </ListGroup.Item>
               </ListGroup>
             </Card.Body>
+            <Card.Body>
+              <Card.Link id="orderBeer" href="#"> &nbsp;&nbsp;ORDER&nbsp;&nbsp; </Card.Link>
+            </Card.Body>
           </Card>
         );
       })}
