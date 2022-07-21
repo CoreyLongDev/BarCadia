@@ -1,9 +1,10 @@
 import React from "react";
+import ComingSoon from "../Components/ComingSoon/ComingSoon";
 
 const About = () => {
     return(
         <>
-        <h3>Welcome to our website</h3>
+        <ComingSoon />
         </>
     )
 }

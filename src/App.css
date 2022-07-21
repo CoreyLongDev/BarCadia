@@ -34,3 +34,17 @@ background-color: #ff5db125 !important
   border-radius: 10px;
   text-decoration: none;
 }
+.comingSoon {
+  font-size: 124px;
+  padding-top: 5rem;
+  text-align: center;
+  color: #FF5DB2;
+}
+.zebra {
+  color: #00c086;
+}
+.pageTitler {
+  font-size: 60px;
+  text-align: center;
+  border-bottom: #00c086 2px solid;
+}

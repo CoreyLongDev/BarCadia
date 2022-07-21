@@ -15,6 +15,8 @@ const Reload = () => {
   }, []);
 
   return (
+    <>
+    <h1 className="pageTitler">Current Beer List</h1>
     <div id="cardWrapper">
       {beers.map((beer, index) => {
         return (
@@ -37,12 +39,13 @@ const Reload = () => {
               </ListGroup>
             </Card.Body>
             <Card.Body>
-              <Card.Link id="orderBeer" href="#"> &nbsp;&nbsp;ORDER&nbsp;&nbsp; </Card.Link>
+              <Card.Link id="orderBeer" href="grgre"> &nbsp;&nbsp;ORDER&nbsp;&nbsp; </Card.Link>
             </Card.Body>
           </Card>
         );
       })}
     </div>
+    </>
   );
 };
 

@@ -1,8 +1,9 @@
 import React from "react";
+import ComingSoon from "../Components/ComingSoon/ComingSoon";
 
 const Events = () => {
     return(
-        <h1>current calander events from SQL here</h1>
+      <ComingSoon />
     )
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import ComingSoon from "../Components/ComingSoon/ComingSoon";
 
 const Connect = () => {
     return(
-        <h1>connect with us. fill out form below</h1>
+        <ComingSoon />
     )
 }
 

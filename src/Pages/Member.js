@@ -1,8 +1,9 @@
 import React from "react";
+import ComingSoon from "../Components/ComingSoon/ComingSoon";
 
 const Member = () => {
     return(
-        <h1>member page coming soon - phase 2</h1>
+        <ComingSoon />
     )
 }
 
