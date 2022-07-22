@@ -48,3 +48,10 @@ background-color: #ff5db125 !important
   text-align: center;
   border-bottom: #00c086 2px solid;
 }
+#controller {
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
