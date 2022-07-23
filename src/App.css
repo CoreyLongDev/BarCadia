@@ -20,6 +20,7 @@ display: inline;
   width: 80%;
   align-items: center !important;
   margin: auto;
+  padding-left: 3rem;
 }
 .card {
   margin: 10px 10px !important;
@@ -59,9 +60,10 @@ background-color: #ff5db125 !important
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   align-items: center !important;
   margin: auto;
+  padding-left: 1.75rem;
 }
 .homerun {
   color:#FF5DB2;
@@ -81,5 +83,10 @@ background-color: #ff5db125 !important
   flex-wrap: wrap;
   padding-left: 15rem;
   padding-right: 15rem;
-
+}
+#WARNING {
+  text-align: center;
+  padding-right: 2rem;
+  color: red;
+  text-decoration: overline;
 }
