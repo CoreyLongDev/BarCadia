@@ -55,3 +55,31 @@ background-color: #ff5db125 !important
   margin-right: auto;
   width: 20%;
 }
+#cardWrapperGames {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center !important;
+  margin: auto;
+}
+.homerun {
+  color:#FF5DB2;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 20px;
+  border-bottom: 3px solid #ff5db125;
+  border-width: 1rem;
+}
+.babble::first-letter {
+  font-size: 36px;
+}
+.babble {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 15rem;
+  padding-right: 15rem;
+
+}

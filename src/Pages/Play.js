@@ -18,7 +18,7 @@ const Reload = () => {
   return (
     <>
     <h1 className="pageTitler">Current Games List</h1>
-    <div id="cardWrapper">
+    <div id="cardWrapperGames">
       {games.map((game, index) => {
         return (
           <Card className="cards" key={index}>
@@ -32,12 +32,9 @@ const Reload = () => {
               <ListGroup className="list-group-flush">
                 <ListGroup.Item>{game.type}</ListGroup.Item>
                 <ListGroup.Item>
-                  <span style={{ color: "orange" }}><img id="controller" src={Controller} alt="game controller" />{game.maxplayers}</span>
+                  <span><img id="controller" src={Controller} alt="game controller" />{game.maxplayers}</span>
                 </ListGroup.Item>
               </ListGroup>
-            </Card.Body>
-            <Card.Body>
-              <Card.Link id="orderBeer" href="grgre"> &nbsp;&nbsp;ORDER&nbsp;&nbsp; </Card.Link>
             </Card.Body>
           </Card>
         );
