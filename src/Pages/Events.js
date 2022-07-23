@@ -1,11 +1,11 @@
 import React from "react";
 import ComingSoon from "../Components/ComingSoon/ComingSoon";
+import Calender from '../Components/calender/calender'
 
 const Events = () => {
     return(
       <>
-      <ComingSoon />
-      <p className="babble">A Event or calander system to give your customers a glimpse into things happening around the barcade.</p>
+    <Calender />
       </>
     )
 }
